@@ -1,0 +1,118 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: medium;
+}
+h1 {
+  text-align: center;
+}
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.book-link {
+  text-decoration: none;
+}
+
+.book-link:link {
+  color: blue;
+}
+
+.book-link:hover {
+  color:#a81414;
+}
+
+.book-link:active {
+  color:darkmagenta;
+}
+
+.topnav .ls {
+  float: left;
+}
+
+.topnav a:hover {
+  color: #489ef3;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: medium;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85%;
+}
+.inner-table {
+  border:  rgb(124, 115, 115);
+}
+
+td{
+  text-align: center;
+  width: 300px;
+  font-weight: 500;
+}
+
+th {
+  background-color: #a81414;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+div {
+  margin-top: 8%;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 20px 0px #8a8e8b;
+  width: 50%;
+  height: 100%;
+}
+.book-div {
+  overflow-x: auto;
+}
+.regdiv {
+  margin-top: 4%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+label{
+  font-weight: bold;
+}
+
+input {
+  border: 2px thin;
+  width: 98%;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+button {
+  width: 99%;
+  height: 25px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
